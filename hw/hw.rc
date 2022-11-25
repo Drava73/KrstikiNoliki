@@ -1,0 +1,134 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian (Russia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "C:\\Users\\frran\\Desktop\\cat.bmp"
+
+IDB_BITMAP2             BITMAP                  "C:\\Users\\frran\\Desktop\\X.bmp"
+
+IDB_BITMAP3             BITMAP                  "C:\\Users\\frran\\Desktop\\O.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 291, 243
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         IDB_BITMAP1,IDC_PICTURE1,"Static",SS_BITMAP,7,7,53,49
+    PUSHBUTTON      "",IDC_BUTTON1,7,55,53,17
+    CONTROL         IDB_BITMAP1,IDC_PICTURE2,"Static",SS_BITMAP,7,90,53,49
+    PUSHBUTTON      "",IDC_BUTTON2,7,139,53,17
+    CONTROL         IDB_BITMAP1,IDC_PICTURE3,"Static",SS_BITMAP,7,171,53,49
+    PUSHBUTTON      "",IDC_BUTTON3,7,219,53,17
+    CONTROL         IDB_BITMAP1,IDC_PICTURE4,"Static",SS_BITMAP,119,7,53,49
+    PUSHBUTTON      "",IDC_BUTTON4,119,55,53,17
+    CONTROL         IDB_BITMAP1,IDC_PICTURE5,"Static",SS_BITMAP,119,90,53,49
+    PUSHBUTTON      "",IDC_BUTTON5,118,138,55,17
+    CONTROL         IDB_BITMAP1,IDC_PICTURE6,"Static",SS_BITMAP,119,170,53,49
+    PUSHBUTTON      "",IDC_BUTTON6,119,219,53,17
+    CONTROL         IDB_BITMAP1,IDC_PICTURE7,"Static",SS_BITMAP,231,7,53,49
+    PUSHBUTTON      "",IDC_BUTTON7,232,56,52,17
+    CONTROL         IDB_BITMAP1,IDC_PICTURE8,"Static",SS_BITMAP,231,89,53,49
+    PUSHBUTTON      "",IDC_BUTTON8,232,137,52,17
+    CONTROL         IDB_BITMAP1,IDC_PICTURE9,"Static",SS_BITMAP,231,170,53,49
+    PUSHBUTTON      "",IDC_BUTTON9,231,219,53,17
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 284
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 236
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // Russian (Russia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
